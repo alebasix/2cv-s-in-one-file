@@ -3,9 +3,18 @@ h5 {
 }
 .Linus {
   background-color: whitesmoke;
+  border: 2px solid;
+  margin: 2px 2px 2px 2px;
+  width: 49%;
+  float: left;
 }
 .Bobby {
-  background-color: white;
+  background-color: rgb(252, 245, 233);
+  border: 2px solid;
+  margin: 2px 2px 2px 2px;
+  width: 49%;
+  float: right;
+  text-align: right;
 }
 #University #Finnish #University-of-Michigan {
   text-align: center;
@@ -17,8 +26,19 @@ h5 {
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
+  margin: 20px;
 }
 .circular--portrait img {
   width: 100%;
   height: auto;
+}
+
+body {
+  height: 100%;
+}
+nav {
+  background-color: whitesmoke;  
+  width: 200px;
+  height: 200px;
+ display: block; 
 }
